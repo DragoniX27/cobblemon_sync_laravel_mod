@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_capture_mod",
+  "version": "1.0.0",
+  "name": "Cobblemon Capture Mod",
+  "description": "Mod de ejemplo para detectar capturas en Cobblemon",
+  "authors": ["TuNombre"],
+  "contact": {
+    "sources": "https://github.com/tuusuario/cobblemon-capture-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.cobblemoncapturemod.CobblemonCaptureMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.6.1",
+    "fabric-command-api-v2": "*"
+  }
+}
